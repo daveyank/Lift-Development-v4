@@ -1,0 +1,43 @@
+body div.gform_wrapper.gf_browser_chrome .gform_body { width: 100%; }
+
+body div.gform_wrapper { background: #fff; border: 0 solid #fff; padding: 0; }
+
+body div.gform_wrapper.gform_body .gform_fields .gfield, body div.gform_wrapper.gform_body .gform_fields .gfield.gf_left_half, body div.gform_wrapper.gform_body .gform_fields .gfield.gf_right_half { margin-bottom: 25px; }
+
+body div.gform_wrapper .gfield_label { color: #444; font-size: 1.6rem; font-weight: 700; }
+
+body div.gform_wrapper input[type="text"], body div.gform_wrapper input[type="url"], body div.gform_wrapper input[type="email"], body div.gform_wrapper input[type="tel"], body div.gform_wrapper input[type="number"], body div.gform_wrapper input[type="password"], body div.gform_wrapper input[type="file"], body div.gform_wrapper textarea { background: #ebebeb; color: #333; font-size: 1.4rem; }
+
+body div.gform_wrapper textarea { width: 100%; }
+
+body div.gform_wrapper select { -webkit-appearance: none; background: url("assets/caret-down.svg") no-repeat 97% transparent; background-size: 10px 10px; background-color: #ebebeb; background-size: rem(12); border-color: #d8d8d8; border-radius: 0; line-height: 1.45; padding: 1rem; width: 100%; }
+
+body div.gform_wrapper select[multiple="multiple"] { background: #ebebeb; }
+
+.gform_wrapper .gform_body .gform_fields .gfield select, .gform_wrapper.gf_browser_chrome .gform_body .gform_fields .gfield select { margin-left: 0; width: 100% !important; }
+
+.gform_wrapper .gfield .chosen-container-single { font-size: rem(16); }
+
+.gform_wrapper .gfield .chosen-container-single .chosen-single { background: #ebebeb; border-color: #d8d8d8; border-radius: 0; height: auto; padding: 1rem; }
+
+.gform_wrapper .gfield .chosen-container-single .chosen-single div b { background: none; }
+
+.gform_wrapper .gfield .chosen-container-single .chosen-drop .chosen-search input[type="text"] { background: none; }
+
+.gform_wrapper .gfield .chosen-container-single .chosen-drop .chosen-results li { padding: rem(10) rem(5); }
+
+.gform_wrapper .gfield .chosen-container-single.chosen-container-single.chosen-with-drop .chosen-single { background-image: none; }
+
+.gform_wrapper .gfield .chosen-container-single.chosen-container-single.chosen-with-drop .chosen-single div b { border: none; }
+
+#content .gform_wrapper { margin-right: 0; max-width: 100%; }
+
+#content .gform_wrapper input[type="text"], #content .gform_wrapper input[type="url"], #content .gform_wrapper input[type="email"], #content .gform_wrapper input[type="tel"], #content .gform_wrapper input[type="number"], #content .gform_wrapper input[type="password"], #content .gform_wrapper input[type="file"], #content .gform_wrapper textarea { padding: 1rem; width: 100%; }
+
+#content .gform_wrapper .chosen-search input[type="text"], #content .gform_wrapper textarea { width: 100%; }
+
+#content .gform_wrapper .gf_left_half, #content .gform_wrapper .gf_right_half { width: 100%; }
+
+#content .gform_wrapper .ginput_complex .name_first input[type="text"], #content .gform_wrapper .ginput_complex .name_last input[type="text"] { width: 100%; }
+
+/*# sourceMappingURL=gravity-styles-lift.css.map */
