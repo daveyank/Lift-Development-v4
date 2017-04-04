@@ -1,0 +1,1 @@
+This is the 2017 iteration of the custom WordPress theme used for LiftDevelopment.com. It is a child theme for the Genesis Framework: http://studiopress.com/genesis.
