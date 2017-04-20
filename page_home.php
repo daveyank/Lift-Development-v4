@@ -93,7 +93,11 @@ function ci_home_open() {
 	?>
 	
 	
-	<?php if ( !wonderplugin_is_device('Mobile') ) { ?>
+	<?php 
+		
+		if ( !wonderplugin_is_device('Mobile') ) { 
+		
+	?>
 	    
 		<video id="ci-home-video" autoplay="" loop="loop" poster="<?php echo wp_get_attachment_url( get_post_meta($post->ID, 'placeholder_image', true)); ?>" width="1280" height="720">
 			
@@ -106,7 +110,11 @@ function ci_home_open() {
 	<?php } else { ?>
 		
 		
-		<?php $src = wp_get_attachment_url( get_post_meta($post->ID, 'placeholder_image', true)); ?>
+		<?php 
+			
+		$src = wp_get_attachment_url( get_post_meta($post->ID, 'placeholder_image', true)); 
+		
+		?>
 		
 		<div id="ci-home-no-video" style="background-image: url(<?php echo $src; ?>);"></div> 
 			

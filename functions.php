@@ -48,7 +48,8 @@ function lift_enqueue_scripts() {
 	
 	
 //* Add scripts after opening <body> tag:
-add_action( 'genesis_before', 'lift_opening_scripts' );
+// UPDATE - 4/20/17 - removing the pre-loader for now. Some of the pages like the Portfolio/Work are getting larger & that pre-load will take longer. Instead look at some sort of lazy loader for loading images that are above the fold.
+//add_action( 'genesis_before', 'lift_opening_scripts' );
 function lift_opening_scripts() {
 	?>
 	
